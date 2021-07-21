@@ -1,0 +1,146 @@
+.body {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+button {
+  margin-right: 20px;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+p {
+  color: black;
+}
+
+.tabbed-div {
+  padding: 1.5rem;
+  margin-top: 1rem;
+  margin-right: 0;
+  margin-bottom: 0px;
+  margin-left: 0;
+  border-style: solid;
+  border-color: rgb(247, 247, 249);
+  border-width: .2rem;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.tabs-ul {
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.item-tabs-li {
+  margin-bottom: -1px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.a-active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.link-tabs-a {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  display: block;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.containeur {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.ligne {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  box-sizing: border-box;
+}
+
+.colonnes-2 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.colonnes-3 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.colonnes-4 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.carte {
+  margin-bottom: 1.5rem !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  box-sizing: border-box;
+}
+
+.image-carte {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+}
