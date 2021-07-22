@@ -52,11 +52,13 @@ function log(message) {
 }
 
 const showPost = (selector, URL, title, descriptionText) => {
+  const urlSrc = (URL !== null) ? `src='${URL}'` : ''; 
+  //console.log(urlSrc); 
   selector.innerHTML += `
     <div class="colonnes-3">
       <div class="carte">
         <p>${descriptionText}</p>
-        <img class="image-carte" src='${URL}' alt='${title}'/>
+        <img class="image-carte" ${urlSrc} alt='${title}'/>
       </div>
     </div>
   `;
